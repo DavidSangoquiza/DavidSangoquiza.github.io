@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.7)),
+    url(../images/fondo2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+/* Estilos para el encabezado */
+header {
+    background-image: linear-gradient(to bottom, #000, #07075a);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  
+
+header img {
+width: 250px;
+height: auto;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilos para los contenedores */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.container {
+    border-radius: 25px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(236, 230, 230, 0.7);
+    transition: 0.7s;
+    filter: blur(0);
+    backdrop-filter: blur(0);
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+  }
+.container p {
+    color: black
+}
+
+.container img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.container p {
+    margin-top: 10px;
+}
+
+.form {
+    border-radius: 25px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(236, 230, 230, 0.7);
+    transition: 0.7s;
+    filter: blur(0);
+    backdrop-filter: blur(0);
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #d1caca;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+footer p {
+    color: black;
+}
+
+.iconos {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.iconos li {
+    margin-right: 10px;
+}
+
+.iconos img {
+    width: 32px;
+}
